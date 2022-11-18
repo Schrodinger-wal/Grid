@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 150px;
+}
+
+.box-grid1 {
+    padding: 1.5rem;
+    border: 2pc solid black;
+    background-color: lightgrey;
+}
